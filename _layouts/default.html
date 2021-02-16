@@ -14,16 +14,20 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
+
   <body>
-    <header class="page-header"
-        role="banner">
-      <h1 class="project-name">Sam Dugdale</h1>
-</header>
+    <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+       <h1>{{ site.title | default: site.github.repository_name }}</h1>
+       {% if site.description or site.github.project_tagline %}
+         <p>{{ site.description | default: site.github.project_tagline }}</p>
+       {% endif %}
+
 <main id="content" class="main-content" role="main">
        {{ content }}
       <footer class="site-footer">
         &copy; 2021 Sam Dugdale
       </footer>
+
 </main>
 <!--    <div class="wrapper">
      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
@@ -63,6 +67,6 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
       </script>
-    {% endif %} --
+    {% endif %} -->
   </body>
 </html>
