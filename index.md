@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
+# Header 1
+Welcome to my page
 
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
