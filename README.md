@@ -17,3 +17,13 @@ I use this...
 
 ## Portfolio
 For my projects and info visit my [portfolio](https://samdugdale.github.io/).
+
+# Study Projects
+
+Currently Studying JAMstack with <a href="https://thecodersguild.org.uk/" target="_blank">thecodersguilduk</a>
+
+**Challenges**
+
+[Semantic HTML](https://samdugdale.github.io/semantic-html-challenge/)
+
+[Framework Challenge](https://samdugdale.github.io/Deadmau5/)
