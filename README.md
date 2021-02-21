@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Sam Dugdale
 
-You can use the [editor on GitHub](https://github.com/SamDugdale/SamDugdale.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![Profile Image](./assets/images/blacktocat.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Profile
+Hi, I'm Sam Dugdale. I'm a front-end web developer based in Leeds, UK. I am developing my skills in HTML, CSS and JavaScript to build, edit and improve websites.
 
-### Markdown
+## Skills & Education
+I have a BSc in **Computer Science** from **Leeds Beckett University** and a real passion for software development.  
+I'm always improving my knowledge of **HTML**, **CSS** and **JavaScript** with an aim to build responsive and accessible sites.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### FreeCodeCamp
+I'm currently doing **The Coders Guild** JAMStack Web and App Development Course. Check out The Coders Guild [here](https://www.thecodersguild.org.uk/).
 
-```markdown
-Syntax highlighted code block
+### FreeCodeCamp
+I use this...
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SamDugdale/SamDugdale.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Portfolio
+For my projects and info visit my [portfolio](https://samdugdale.github.io/).
