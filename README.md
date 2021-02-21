@@ -10,7 +10,7 @@ I have a BSc in **Computer Science** from **Leeds Beckett University** and a rea
 I'm always improving my knowledge of **HTML**, **CSS** and **JavaScript** with an aim to build responsive and accessible sites.
 
 ### FreeCodeCamp
-I'm currently doing **The Coders Guild** JAMStack Web and App Development Course. Check out The Coders Guild <a href="https://www.thecodersguild.org.uk/" target="_blank">here</a>.
+I'm currently doing **The Coders Guild** JAMStack Web and App Development Course. Check out The Coders Guild [here](https://www.thecodersguild.org.uk/).
 
 ### FreeCodeCamp
 I use this...
