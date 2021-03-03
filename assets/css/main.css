@@ -460,6 +460,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 0px;
 }
 
+/** navbar when scrolled down  **/
 .top-nav-collapse {
   background: #fff;
   z-index: 999999;
@@ -498,8 +499,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #00b4d9 !important;
 }
 
+/** navbar at top  **/
 .indigo {
-  background: #fff;
+  background:hsla(0, 21%, 16%, 0.3);
 }
 
 .menu-bg {
@@ -520,7 +522,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #333;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   padding: 0 17px;
   margin-top: 15px;
