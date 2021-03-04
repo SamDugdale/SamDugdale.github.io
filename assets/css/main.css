@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
 html {
   overflow-x: hidden;
 }
@@ -26,7 +27,7 @@ h1, h2, h3, h4 {
 }
 
 .script-font {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Farsan', cursive;
 }
 
 a {
@@ -78,6 +79,123 @@ ul li, ol li {
   letter-spacing: 0.1rem;
 }
 
+/*=======================
+	Personal CSS
+=========================*/ 
+/* 
+#personal-area {
+	background-image: url('http://via.placeholder.com/1500x800');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 680px;
+	position:relative;
+	background-position: center;
+}
+#personal-area .personal-single {
+	position: relative;
+	z-index: 3;
+}
+#personal-area .personal-single::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url('images/banner-pattern.png');
+	opacity: 0.5;
+	content: "";
+	z-index: -1;
+}
+#personal-area .personal-single::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	content: "";
+	z-index: -2;
+}
+#personal-area .personal-text {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+	height: 680px;
+	text-align: center;
+}
+*/
+/* Personal Animate Text */
+/*
+#personal-area .personal-text h1 {
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 25px;
+}
+#personal-area .personal-text h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #eee;
+	margin-bottom: 25px;
+}
+#personal-area .personal-text h2 span {
+	display:inline-block;
+	padding:0;
+}
+#personal-area .personal-text h2 b{
+	font-weight:700;
+}
+#personal-area .my-info p {
+	color: #fff;
+	font-size: 15px;
+}
+#personal-area .personal-text .btn {
+	background: #fff;
+	color: #353535;
+	margin-right: 20px;
+	padding: 13px 35px;
+	overflow:hidden;
+}
+#personal-area .personal-text .btn:hover{
+	color:#fff;
+}
+#personal-area .personal-text .btn.primary{
+	color:#fff;
+}
+#personal-area .personal-text .btn i{
+	margin-right:10px;
+}
+#personal-area .personal-text .btn:hover i{
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-animation-name: hvr-icon-drop;
+  animation-name: hvr-icon-drop;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+#personal-area .personal-text .btn:last-child{
+	margin:0;
+}
+*/
 .section-titile-bg {
   display: inline;
   font-size: 115px;
@@ -133,14 +251,14 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #00b4d9;
+  background-color: #F2784B;
   position: relative;
   z-index: 1;
 }
 
 .btn-common:hover {
   color: #fff;
-  background-color: #21cff3;
+  background-color: #f14406;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -244,7 +362,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #00b4d9;
+  background: #F2784B;
   border-radius: 2px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -356,7 +474,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .counter-section .counter .icon i {
   font-size: 48px;
-  color: #00b4d9;
+  color: #e47248;
 }
 
 .counter-section .counter p {
@@ -438,7 +556,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: block;
   position: absolute;
   margin-top: 18px;
-  border-color: #00b4d9 !important;
+  border-color: #F2784B !important;
 }
 
 .timeline li:first-child i {
@@ -448,7 +566,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   line-height: 50px;
   border-radius: 30px;
   margin: -12px -55px;
-  background: #00b4d9;
+  background: #F2784B;
   color: #fff;
   width: 50px;
   height: 50px;
@@ -492,11 +610,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
   cursor: pointer;
-  color: #00b4d9 !important;
+  color: #f1774b !important;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #00b4d9 !important;
+  color: #F2784B !important;
 }
 
 /** navbar at top  **/
@@ -539,7 +657,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #00b4d9;
+  color: #F2784B;
   outline: none;
 }
 
@@ -548,7 +666,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  color: #00b4d9;
+  color: #F2784B;
 }
 
 .dropdown-toggle::after {
@@ -797,8 +915,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .controls .active {
-  color: #00b4d9 !important;
-  border-color: #00b4d9;
+  color: #f07041 !important;
+  border-color: #F2784B;
   background: transparent;
 }
 
@@ -857,7 +975,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  color: #00b4d9;
+  color: #F2784B;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -901,12 +1019,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
-/* Services Item */
-.services {
+/* skills Item */
+.skills {
   background: #F0F0F0;
 }
 
-.services-item {
+.skills-item {
   background: #fff;
   border-radius: 4px;
   padding: 48px 20px;
@@ -918,7 +1036,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i {
+.skills-item .icon i {
   font-size: 42px;
   margin-bottom: 15px;
   text-align: center;
@@ -929,26 +1047,26 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #00b4d9;
 }
 
-.services-item .services-content h3 {
+.skills-item .skills-content h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.services-item .services-content h3 a {
+.skills-item .skills-content h3 a {
   font-size: 18px;
   text-transform: uppercase;
   color: #666;
 }
 
-.services-item .services-content h3 a:hover {
+.skills-item .skills-content h3 a:hover {
   color: #00b4d9;
 }
 
-.services-item .services-content p {
+.skills-item .skills-content p {
   line-height: 22px;
 }
 
-.services-item:hover {
+.skills-item:hover {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -1006,7 +1124,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .footer-right-contact .contact-icon {
-  background: #00b4d9;
+  background: #F2784B;
   color: #fff;
   border-radius: 50%;
   font-size: 20px;
@@ -1124,5 +1242,5 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 #copyright p a:hover {
-  color: #00b4d9;
+  color: #F2784B;
 }
