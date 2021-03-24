@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
 html {
   overflow-x: hidden;
 }
@@ -20,7 +21,10 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-size: 38px;
   font-weight: 700;
   font-family: "Source Sans Pro", sans-serif;
@@ -52,13 +56,15 @@ p {
   font-size: 14.5px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   list-style: none;
 }
 
@@ -81,7 +87,7 @@ ul li, ol li {
 
 /*=======================
 	Personal CSS
-=========================*/ 
+=========================*/
 /* 
 #personal-area {
 	background-image: url('http://via.placeholder.com/1500x800');
@@ -301,7 +307,8 @@ button:focus {
   outline: none !important;
 }
 
-.icon-close, .icon-check {
+.icon-close,
+.icon-check {
   color: #00b4d9;
 }
 
@@ -372,7 +379,8 @@ a.back-to-top i {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-a.back-to-top:hover, a.back-to-top:focus {
+a.back-to-top:hover,
+a.back-to-top:focus {
   text-decoration: none;
 }
 
@@ -448,50 +456,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   bottom: 10px;
 }
 
-.counter-section {
-  background: url(../img/background/bg-1.jpg);
-  overflow: hidden;
-  position: relative;
-}
-
-.counter-section:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.counter-section .counter {
-  padding: 30px 0;
-}
-
-.counter-section .counter .icon {
-  margin-bottom: 30px;
-}
-
-.counter-section .counter .icon i {
-  font-size: 48px;
-  color: #e47248;
-}
-
-.counter-section .counter p {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin: 30px 0;
-}
-
-.counter-section .counter .counterUp {
-  color: #fff;
-  font-size: 42px;
-  margin-top: 15px;
-  font-weight: 700;
-}
 
 /* Resume */
 .timeline {
@@ -619,7 +583,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /** navbar at top  **/
 .indigo {
-  background:hsla(0, 21%, 16%, 0.3);
+  background: hsla(0, 21%, 16%, 0.3);
 }
 
 .menu-bg {
@@ -655,7 +619,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
   color: #F2784B;
   outline: none;
@@ -753,7 +717,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #00b4d9;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background: transparent;
 }
 
@@ -793,24 +758,30 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-header {
     width: 100%;
   }
+
   .navbar-brand {
     position: absolute;
     padding: 0px 15px;
     top: 0;
   }
+
   .navbar-brand img {
     width: 75%;
   }
+
   #mobile-menu {
     display: none;
   }
+
   .slicknav_menu {
     display: block;
   }
+
   .slicknav_nav .active a {
     background: #E91E63;
     color: #fff;
   }
+
   .slicknav_nav a:hover,
   .slicknav_nav a:focus,
   .slicknav_nav .active {
@@ -1015,7 +986,8 @@ a:not([href]):not([tabindex]) {
   color: #fff;
 }
 
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
@@ -1087,7 +1059,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   outline: none;
 }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 1;
 }
 
