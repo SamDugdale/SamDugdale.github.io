@@ -5,8 +5,8 @@ html {
   overflow-x: hidden;
 }
 
-body {
-  background: #fff;
+body.dark-theme {
+  background: #6e6868;
   font-size: 14px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
@@ -14,21 +14,24 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #666;
+  color: rgb(14, 13, 13);
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
-}
 
-h1,
-h2,
-h3,
-h4 {
+
+
+
+h1.dark-theme,
+h2.dark-theme,
+h3.dark-theme,
+h4.dark-theme {
   font-size: 38px;
   font-weight: 700;
   font-family: "Source Sans Pro", sans-serif;
-}
+  color:black;
+}}
 
 .script-font {
   font-family: 'Farsan', cursive;
@@ -68,19 +71,19 @@ ol li {
   list-style: none;
 }
 
-.hero-heading {
+.hero-heading.dark-theme {
   font-size: 48px;
   font-weight: 700;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-transform: capitalize;
   line-height: 70px;
   letter-spacing: 0.1rem;
 }
 
-.hero-sub-heading {
+.hero-sub-heading.dark-theme {
   font-size: 20px;
   font-weight: 400;
-  color: #e6e6e6;
+  color: #363636;
   line-height: 45px;
   letter-spacing: 0.1rem;
 }
@@ -383,9 +386,9 @@ a.back-to-top:focus {
   text-decoration: none;
 }
 
-#loader {
+#loader.dark-theme {
   position: fixed;
-  background: #fff;
+  background: rgb(0, 0, 0);
   top: 0;
   left: 0;
   width: 100%;
@@ -409,13 +412,13 @@ a.back-to-top:focus {
   padding: 60px 0;
 }
 
-#about .img-thumb img {
-  border: 8px solid #fff;
+#about.dark-theme .img-thumb img {
+  border: 8px solid rgb(0, 0, 0);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   border-radius: 3%;
 }
 
-.profile-wrapper {
+.profile-wrapper.dark-theme {
   padding: 45px 0;
 }
 
@@ -428,24 +431,24 @@ a.back-to-top:focus {
   margin-right: 5px;
 }
 
-.about-profile {
+.about-profile.dark-theme {
   position: relative;
   margin: 20px 0 20px 0;
 }
 
-.about-profile .pro-title {
+.about-profile.dark-theme .pro-title {
   font-weight: 700;
-  color: #040404;
+  color: #ece0e0;
   position: relative;
   width: 120px;
   display: inline-block;
   margin-bottom: 5px;
 }
 
-.about-profile .pro-title:after {
+.about-profile.dark-theme .pro-title:after {
   position: absolute;
   content: ':';
-  color: #040404;
+  color: #ebdfdf;
   font-size: 14px;
   left: 81px;
 }
@@ -468,14 +471,14 @@ a.back-to-top:focus {
   margin-left: 25px;
 }
 
-.timeline li {
+.timeline li.dark-theme {
   padding: 0 20px 20px 30px;
   list-style: none;
-  border-left: 2px solid #f1f1f1;
+  border-left: 2px solid #4d4c4c;
 }
 
-.timeline li .content-text {
-  background: #f2f2f2;
+.timeline li.dark-theme .content-text {
+  background: #444444;
   padding: 20px;
 }
 
@@ -490,8 +493,8 @@ a.back-to-top:focus {
   display: block;
 }
 
-.timeline li .line-text {
-  color: #888;
+.timeline li.dark-theme .line-text {
+  color: rgb(238, 238, 238);
   line-height: 18px;
 }
 
@@ -505,7 +508,7 @@ a.back-to-top:focus {
   padding: 0 20px 0px 30px;
 }
 
-.timeline li:before {
+.timeline.dark-theme li:before {
   content: "";
   border: solid 2px;
   width: 8px;
@@ -516,14 +519,14 @@ a.back-to-top:focus {
   font-size: 8px;
   margin-left: -35px;
   font-weight: 400;
-  background: #fff;
+  background: rgb(0, 0, 0);
   display: block;
   position: absolute;
   margin-top: 18px;
   border-color: #F2784B !important;
 }
 
-.timeline li:first-child i {
+.timeline.dark-theme li:first-child i {
   font-size: 20px;
   float: left;
   margin-left: -30px;
@@ -531,7 +534,7 @@ a.back-to-top:focus {
   border-radius: 30px;
   margin: -12px -55px;
   background: #F2784B;
-  color: #fff;
+  color: #000000;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -543,7 +546,7 @@ a.back-to-top:focus {
 }
 
 /** navbar when scrolled down  **/
-.top-nav-collapse {
+.top-nav-collapse.dark-theme {
   background: #fff;
   z-index: 999999;
   top: 0px !important;
@@ -566,8 +569,8 @@ a.back-to-top:focus {
   width: 65%;
 }
 
-.top-nav-collapse .navbar-nav .nav-link {
-  color: #333 !important;
+.top-nav-collapse.dark-theme .navbar-nav .nav-link {
+  color: #dddddd !important;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
@@ -582,8 +585,8 @@ a.back-to-top:focus {
 }
 
 /** navbar at top  **/
-.indigo {
-  background: hsla(0, 21%, 16%, 0.3);
+.indigo.dark-theme {
+  background: hsla(0, 25%, 5%, 0.3);
 }
 
 .menu-bg {
@@ -603,8 +606,8 @@ a.back-to-top:focus {
   color: #21cff3;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
+.navbar-expand-lg.dark-theme .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
   font-weight: 700;
   padding: 0 17px;
   margin-top: 15px;
@@ -799,19 +802,19 @@ a.back-to-top:focus {
   background-size: cover;
 }
 
-#hero-area {
-  color: #fff;
+#hero-area.dark-theme {
+  color: #000000;
   overflow: hidden;
   position: relative;
 }
 
-#hero-area .overlay {
+#hero-area.dark-theme .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #0c0808;
+  background: #bda7a7;
   opacity: 0.6;
 }
 
@@ -823,17 +826,17 @@ a.back-to-top:focus {
   font-size: 50px;
 }
 
-#hero-area .contents .head-title {
-  color: #fff;
+#hero-area.dark-theme .contents .head-title {
+  color: #000000;
   font-size: 80px;
   letter-spacing: 10px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-#hero-area .contents p {
+#hero-area.dark-theme .contents p {
   font-size: 30px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 25px;
@@ -864,8 +867,8 @@ a.back-to-top:focus {
 /* ==========================================================================
   Portfolio Section
    ========================================================================== */
-#portfolios {
-  background: #f2f2f2;
+#portfolios.dark-theme {
+  background: #1b1b1b;
 }
 
 #portfolios .mix {
@@ -891,10 +894,10 @@ a.back-to-top:focus {
   background: transparent;
 }
 
-.controls .btn {
+.controls.dark-theme .btn {
   text-transform: uppercase;
   margin: 2px;
-  color: #fff;
+  color: rgb(14, 14, 14);
 }
 
 .controls:hover {
@@ -992,15 +995,15 @@ a:not([href]):not([tabindex]):hover {
 }
 
 /* skills Item */
-.skills {
-  background: #F0F0F0;
+.skills.dark-theme {
+  background: #000000;
 }
 
-.skills-item {
-  background: #fff;
+.skills-item.dark-theme {
+  background: rgb(0, 0, 0);
   border-radius: 4px;
   padding: 48px 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(206, 203, 203, 0.2);
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
