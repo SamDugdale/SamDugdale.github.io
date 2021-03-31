@@ -413,6 +413,8 @@ a.back-to-top:focus {
   border: 8px solid #fff;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   border-radius: 3%;
+  max-width:80%;
+  max-height:80%;
 }
 
 .profile-wrapper {
