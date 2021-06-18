@@ -785,7 +785,12 @@ a.back-to-top:focus {
 #hero-area {
   color: #fff;
   overflow: hidden;
-  position: relative;
+  /*   position: relative; */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 /*  height: 100%;
   background-size: cover;
   background-position: center;
@@ -983,6 +988,14 @@ a:not([href]):not([tabindex]):hover {
 /* skills Item */
 .skills {
   background: #F0F0F0;
+
+  background: url(../img/hero-area.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .skills-item {
